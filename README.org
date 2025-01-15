@@ -1,0 +1,43 @@
+*  OCR_Manifest
+A package to perform OCR on the pages in a IIIF Manifest.
+
+*ocr_manifest* is a Python package that provides a script,
+ocr-manifest, to download OCR files from a Manifest URI and write them
+to a specified directory.
+
+** Installation
+To install the ocr_manifest package, ensure you have uv installed to
+manage your project dependencies. Then, follow these steps:
+
+1. Clone the repository or download the source code.
+
+2. Install the package and its dependencies using uv:
+   #+begin_src bash
+     uv install
+   #+end_src
+
+3. Verify that the ocr-manifest script is installed and available in
+   your PATH:
+   #+begin_src bash
+     ocr-manifest --help
+   #+end_src
+
+** Usage
+The ocr-manifest script processes a Manifest URI and downloads the
+corresponding OCR files to a specified directory.
+
+*** Syntax
+#+begin_src bash
+  ocr-manifest <manifest_uri> <output_directory>
+#+end_src
+
+- <manifest_uri>: The URI of the Manifest to process.
+- <output_directory>: The directory where OCR files will be written.
+	
+
+*** Example
+#+begin_src bash
+  ocr-manifest https://example.com/manifest.json output_files
+#+end_src
+
+After execution, all the OCR files will be available in the output_files directory.

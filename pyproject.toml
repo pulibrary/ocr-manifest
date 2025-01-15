@@ -1,7 +1,7 @@
 [project]
-name = "image-downloader"
+name = "ocr-manifest"
 version = "0.1.0"
-description = "Add your description here"
+description = "runs Kraken over images in manifest to produce text files"
 readme = "README.md"
 requires-python = ">=3.10"
 dependencies = [
