@@ -1,8 +1,8 @@
-# OCR~Manifest~
+# OCR-Manifest~
 
 A package to perform OCR on the pages in a IIIF Manifest.
 
-**ocr~manifest~** is a Python package that provides a script,
+**ocr-manifest~** is a Python package that provides a script,
 ocr-manifest, to download OCR files from a Manifest URI and write them
 to a specified directory.
 
